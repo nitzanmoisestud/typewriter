@@ -10,7 +10,6 @@ function init() {
   let prevText = "";
   const sound = document.getElementById("typekey1");
   let audio = new Audio("typekey1.mp3");
-  audio.play();
 
   for (i = 0; i < typeWriterStr.length; i++) {
     let currChar = typeWriterStr.charAt(i);
